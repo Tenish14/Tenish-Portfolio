@@ -118,7 +118,7 @@ nav .collapse ul li a:hover:after {
 }
 .projects-contain1 img {
   width: 100px;
-  margin-left: 100px;
+  margin-left: 11rem;
   margin-top: 50px;
 }
 .projects-contain1 p {
@@ -184,10 +184,13 @@ b {
 }
 
 form {
-  margin-left: 350px;
+  margin-left: 11rem;
 }
 form .btn {
   background-color: #4B6CC1;
+}
+form label {
+  margin-left: 11rem;
 }
 
 footer {
@@ -198,6 +201,10 @@ footer {
 footer h2 {
   font-size: 0.9em;
   color: #555555;
+}
+
+.form-control {
+  margin-left: 11rem;
 }
 
 /*# sourceMappingURL=style.css.map */
