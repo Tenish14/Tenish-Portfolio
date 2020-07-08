@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #191A1D;
+}
+nav img {
+  height: 60px;
+}
+nav .collapse ul li a {
+  color: white;
+  font-size: 1.35rem;
+  display: inline-block;
+  position: relative;
+}
+nav .collapse ul li a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #4B6CC1;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+nav .collapse ul li a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.about-me {
+  background-color: #191A1D;
+  height: 100vh;
+}
+.about-me h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.about-me h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 50px;
+}
+.about-me p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  margin-left: 50px;
+  color: #9D9D9E;
+}
+.about-me button {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.5rem;
+  border: none;
+  background-color: #4B6CC1;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+.about-me img {
+  padding-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 150px;
+}
+
+.projects {
+  background: #191A1D;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+}
+.projects h1 {
+  font-size: 5rem;
+  padding-top: 100px;
+}
+.projects h4 {
+  font-size: 2.7rem;
+  color: #ABABAB;
+  padding-bottom: 250px;
+}
+
+.projects-contain img {
+  padding-top: 100px;
+  margin-bottom: 150px;
+}
+.projects-contain h1 {
+  font-size: 4rem;
+}
+.projects-contain p {
+  font-size: 1.3rem;
+}
+.projects-contain button {
+  font-size: 1.5rem;
+  border: none;
+  background-color: #4B6CC1;
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+
+.projects-contain h2 {
+  margin-top: 50px;
+}
+.projects-contain img {
+  width: 100px;
+  margin-left: 100px;
+}
+.projects-contain p {
+  margin-right: 100px;
+}
+
+.projects-contain1 h2 {
+  margin-top: 50px;
+}
+.projects-contain1 img {
+  width: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.projects-contain1 p {
+  margin-top: 50px;
+}
+
+.projects-contain1 .bulma img {
+  height: 100px;
+  width: 200px;
+}
+
+.process {
+  background: #191A1D;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+}
+.process h1 {
+  font-size: 5rem;
+  padding-top: 100px;
+}
+.process h4 {
+  font-size: 2.7rem;
+  color: #ABABAB;
+  padding-bottom: 250px;
+}
+
+.steps {
+  color: #919191;
+  font-size: 1.8rem;
+  margin-top: 100px;
+  margin-left: 450px;
+}
+
+b {
+  border-bottom: 5px solid #F6F6F6;
+  padding: 0 0 10px;
+}
+
+.step img {
+  margin-top: 50px;
+  height: 300px;
+}
+.step h2 {
+  margin-top: 50px;
+  font-size: 2.5rem;
+}
+.step p {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+.contact {
+  background: #191A1D;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+}
+.contact h1 {
+  font-size: 5rem;
+  padding-top: 100px;
+}
+.contact h4 {
+  font-size: 2.7rem;
+  color: #ABABAB;
+  padding-bottom: 250px;
+}
+
+form {
+  margin-left: 350px;
+}
+form .btn {
+  background-color: #4B6CC1;
+}
+
+footer {
+  background-color: #101114;
+  color: white;
+  width: 100%;
+}
+footer h2 {
+  font-size: 0.9em;
+  color: #555555;
+}
+
+/*# sourceMappingURL=style.css.map */
